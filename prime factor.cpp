@@ -4,7 +4,7 @@ int main() {
     int n;
     cin >> n;
     bool first = true;
-    for (int i = 2; i * i <= n; i++) 
+    for (int i = 2; i * i <= n; i++) //i<=sqrt(n)
     {
         if (n % i == 0) 
         {
